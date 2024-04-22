@@ -1,7 +1,7 @@
 # Konrad Rudnicki - Terraform, EC2, TicTacToe report
 
 - Course: *Cloud programming*
-- Group: 
+- Group: Group 4
 - Date: 22.04.2024
 
 ## Environment architecture
@@ -13,6 +13,8 @@ Description and scheme of the developed infrastructure.
 Screenshots of configured AWS services. Screenshots of your application running.
 
 ![Sample image](img/tic-tac-toe.png)
+![Sample image](img/terraform.png)
+![Sample image](img/terraform-win.png)
 
 ## Reflections
 
