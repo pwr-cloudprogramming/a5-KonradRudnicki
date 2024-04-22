@@ -1,8 +1,8 @@
-# Jane Doe - Terraform, EC2, TicTacToe report
+# Konrad Rudnicki - Terraform, EC2, TicTacToe report
 
 - Course: *Cloud programming*
-- Group:
-- Date:
+- Group: 
+- Date: 22.04.2024
 
 ## Environment architecture
 
@@ -12,7 +12,7 @@ Description and scheme of the developed infrastructure.
 
 Screenshots of configured AWS services. Screenshots of your application running.
 
-![Sample image](img/sample-image.png)
+![Sample image](img/tic-tac-toe.png)
 
 ## Reflections
 

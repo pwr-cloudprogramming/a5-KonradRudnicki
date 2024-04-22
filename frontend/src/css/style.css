@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #cfcfcf;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #0f0;
+    text-align: center;
+    text-shadow: 0 0 10px #0f0;
+}
+
+.container-fluid, .row {
+    min-width: 2000px;
+    height: 100%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameBoard {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 0;
+}
+
+#gameBoard li {
+    height: calc((100vh - 300px) / 3);
+    background-color: #222;
+    color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0f0;
+    transition: background-color 0.3s, transform 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc((100vh - 300px) / 3);
+    text-align: center;
+}
+
+#gameBoard li:hover {
+    background-color: #0f0;
+    color: #121212;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.game-controls input, .game-controls button {
+    margin-top: 10px;
+}
+
+.btn-block {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 0.9em;
+}

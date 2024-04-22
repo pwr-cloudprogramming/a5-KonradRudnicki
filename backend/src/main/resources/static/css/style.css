@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #cfcfcf;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #0f0;
+    text-align: center;
+    text-shadow: 0 0 10px #0f0;
+}
+
+.container-fluid, .row {
+    width: 100%; /* full width of the viewport */
+    height: 100%; /* full height of the viewport */
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameBoard li {
+    height: 120px; /* Fixed height */
+    width: 120px; /* Fixed width */
+    background-color: #222;
+    color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem; /* Fixed font size */
+    transition: background-color 0.3s;
+}
+
+#gameBoard li:hover {
+    background-color: #0f0;
+    color: #121212;
+    cursor: pointer;
+}
+
+.game-controls input, .game-controls button {
+    margin-top: 10px;
+    width: auto; /* Reset width to auto so the elements don't stretch */
+}
+
+.btn-block {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 0.9em;
+}
