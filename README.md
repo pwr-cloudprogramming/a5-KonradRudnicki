@@ -6,8 +6,8 @@
 
 ## Environment architecture
 
-Backend: Java with Spring Booot
-Frontend: Html/Css/Js
+- Backend: Java with Spring Booot
+- Frontend: Html/Css/Js
 
 ## Preview
 
