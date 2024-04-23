@@ -6,7 +6,8 @@
 
 ## Environment architecture
 
-Description and scheme of the developed infrastructure.
+Backend: Java with Spring Booot
+Frontend: Html/Css/Js
 
 ## Preview
 
