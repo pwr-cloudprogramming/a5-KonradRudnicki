@@ -24,7 +24,7 @@ Screenshots of configured AWS services. Screenshots of your application running.
 
 
 - What obstacles did you overcome?
-  I had issue with downloading the repository.
+  I had issue with downloading the repository and I wasnt sure how to pass the ip of backend to frontend.
 
 - What did you help most in overcoming obstacles?
   Googling the answer.
