@@ -20,6 +20,15 @@ Screenshots of configured AWS services. Screenshots of your application running.
 ## Reflections
 
 - What did you learn?
+  I learned hot to deplyos application on AWS with terraform.
+
+
 - What obstacles did you overcome?
+  I had issue with downloading the repository.
+
 - What did you help most in overcoming obstacles?
+  Googling the answer.
+
+
 - Was that something that surprised you?
+  How easy it is to deploy apps on AWS while you have the configuration for it.
